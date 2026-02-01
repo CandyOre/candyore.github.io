@@ -3,6 +3,9 @@
     <head>
         <title>Zekai Wu</title>
         <style>
+            body {
+                line-height: 1.6;
+            }
             .container {
                 max-width: 800px;
                 padding: 1rem;
@@ -14,6 +17,23 @@
             }  
             .mono {
                 font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            }
+            .twocol {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+            }
+            .textcol {
+                flex: 1;
+            }
+            .imagecol {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                flex-shrink: 0;
+            }
+            .image {
+                border-radius: 12px;
             }
         </style>
         <meta name="google-site-verification" content="Cq4PfbPzyB47b3NZ6d94B_VfqI_5XTokvl86L5iSoSA" />
@@ -30,8 +50,8 @@
                         <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>.
                     My advisor is Professor
                         <a href="https://www4.comp.polyu.edu.hk/~bo2li/">Bo Li</a>.
-                    <br><br>
-
+                </p>
+                <p>
                     Prior to this, I received my B.Eng. degree in 
                         <a href="http://cs.hitsz.edu.cn/">Computer Science and Technology</a>
                     and B.Econ. degree in 
@@ -40,8 +60,8 @@
                         <a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a>.
                     I was fortunate to complete my B.Eng. thesis under the supervision of Professor
                         <a href="https://shengxin-liu.github.io/">Shengxin Liu</a>.
-                    <br><br>
-
+                </p>
+                <p>
                     I have a broad interest in theoretical computer science, microeconomics, and pure mathematics.
                     Currently, I focus on Algorithmic Game Theory and Fair Division problems specifically.
                 </p>
@@ -69,7 +89,7 @@
                     <strong>Tight MMS Approximation for Chores Allocation with SPLC Costs</strong><br>
                     Bo Li, Zekai Wu, Yu Zhou<br>
                     <!-- <strong></strong>  <br> -->
-                    <span class="mono">To be apper on [Arxiv]</span>
+                    <span class="mono">To apper on [Arxiv]</span>
                     <!-- <a href=""></a> -->
                 </p>
                 <p class="indented">
@@ -95,29 +115,51 @@
             </div>
 
             <div>
-                <h2>More About Me</h2>
+                <h2>Fun Facts</h2>
 
                 <p class="indented">
                     <strong>I love skiing</strong>. 
                     Exploring more breathtaking snow-covered mountains has been a constant source of motivation for me.
-                    During my recent visit to Whistler, Canada, I felt increasingly comfortble with blue runs, as well as on mild mogu terrain and sparse tree areas.
-                    In the future, I hope I can visit more mountains in China, Japan, New Zealand and Eroupe. 
+                    During my recent visit to Whistler, Canada, I felt increasingly comfortable with blue runs, as well as on mild mogul terrain and sparse trees.
+                    In the future, I hope I can visit more mountains in China, Japan, New Zealand and Europe. 
                     I'm also <strong>looking for skiing partners</strong>. 
                     I'll keep a list of ski resorts I've already visited here.
-                    <ul>
-                        <li> <span class="mono">[Nov 2025] Wanlong and Fulong, Chongli, China</span> </li>
-                        <li> <span class="mono">[Jan 2026] Whistler, Canada</span> </li>
-                    </ul>
                 </p>
+                <ul>
+                    <li> <span class="mono">[Nov 2025] Wanlong and Fulong, Chongli, China</span> </li>
+                    <li> <span class="mono">[Jan 2026] Whistler, Canada</span> </li>
+                </ul>
                 <p class="indented">
                     <strong>I was fascinated by coding</strong>.
                     A few projects can be found on my <a href="https://github.com/CandyOre">Github</a>.
-                    I also enjoyed competitive programming, although I spent much less time on it after shifting my focus to theoretic research.
+                    I also enjoyed competitive programming, although I spent much less time on it after shifting my focus to theoretical research.
                 </p>
+                <div class="twocol">
+                    <div class="textcol">
+                        <p class="indented">
+                            <strong>My nickname "CandyOre" originates from</strong> <a href="https://www.minecraft.net/">Minecraft</a>.
+                            Sometime around 2015, I was messing around my in-game house with 
+                                <a href="https://www.mcmod.cn/class/386.html">TofuCraft</a> and 
+                                <a href="https://www.curseforge.com/minecraft/mc-mods/ore-gem-plants">OreGemPlant</a> mods,
+                                when I suddenly wanted an original username.
+                            Pondering at ore blocks and sugar cane, I decided to be CandyOre.
+                        </p>
+                        <p class="indented">
+                            The name can be interpreted as a playful reference to the origin of candy &mdash; sugar cane.
+                            It may also represent a personality that is sweet on the inside and tough on the outside, where one has to dig and refine them to uncover the sweetness.
+                        </p>
+                        <p class="indented">
+                            I also made the avatar myself using Blender.
+                        </p>
+                    </div>
+                    <div class="imagecol">
+                        <img class="image" src="candy_ore.png" width="130">
+                        <img class="image" src="pink_ore.png" width="130">
+                    </div>
+                </div>
                 <p class="indented">
                     <strong>TODO</strong>. I may write more about me in the future xD.
                 </p>
-    
             </div>
         </div>
     </body>
